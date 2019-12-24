@@ -1,0 +1,4 @@
+Django 2.0
+pillow
+weazyprint
+browser
