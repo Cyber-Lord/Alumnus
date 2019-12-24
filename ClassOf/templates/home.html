@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hi</title>
+</head>
+<body>
+<center><h1>Welcome too class of</h1></center>
+<table>
+	{% for f in faculties %}
+
+		<tr>
+			<td>
+				{{ f.faculty_name }}
+			</td>
+			<td>
+				{{ f.faculty_deen }}
+			</td>
+		</tr>
+
+	{% endfor %}
+
+</table>
+</body>
+</html>
